@@ -1,0 +1,46 @@
+body{
+    background: linear-gradient( #440606, #F2FAFD);
+}
+#screen{
+    border-width: 5px;
+    margin: 20px 60px;
+    width: 85%;
+    height: 40rem;
+    border-color: yellow;
+    font-size: 7rem;
+    border-radius: 30px;
+    font-family: arial;
+    pointer-events: none;
+    text-align: right;
+}
+.div1{
+    margin: 0rem auto;
+    
+ }
+.but{
+    height:100%;
+    margin-left: 3px;
+}
+button{
+    width: 170px;
+    height: 10rem;
+    margin-top: 20px;
+    color: white;
+    background: linear-gradient( #214478, #430dbd);
+    margin-left: 50px;
+    border-radius: 34px;
+    border: solid blue;
+    font-size: 60px;
+    font-weight: 600;
+     
+}
+button:hover{
+    transition: all .5s;
+    
+}
+button:active {
+    transition: all 1s linear;
+    background: transparent ;
+    color: transparent;
+
+}
